@@ -1,24 +1,21 @@
 const features = [
   {
-    emoji: "🗺️",
     number: "01",
-    title: "30日間実践プログラム",
+    title: "1ヶ月以内に開始するための30日間実践プログラム",
     description:
       "テーマ設計から初回開催、月1定例化まで、30日単位で何をすべきかが明確になっています。「次に何をすればいいか分からない」で止まらず、順番通りに進めるだけで交流会開催まで辿り着ける設計です。",
   },
   {
-    emoji: "📋",
     number: "02",
-    title: "すぐ使えるテンプレート集",
+    title: "購入後すぐに使えるテンプレート集",
     description:
       "募集文・LINEメッセージ・当日の進行シート・リマインド文など、実際の運営で使えるテンプレートをそのまま提供します。ゼロから考える手間なく、すぐに動き出せます。",
   },
   {
-    emoji: "🎥",
     number: "03",
-    title: "60分 Zoom個別サポート",
+    title: "Zoom・チャット相談付きの充実のサポート内容",
     description:
-      "テーマ・集客・参加費の設定など、交流会の正解は人によって異なります。本講座では60分のZoom相談を用意しており、あなたの状況に合わせて個別に相談できます。",
+      "テーマ・集客・参加費の設定など、交流会の正解は人によって異なります。60分のZoom相談と1ヶ月間のチャットサポートで、あなたの状況に合わせて個別にサポートします。",
   },
 ];
 
@@ -39,16 +36,8 @@ export default function FeaturesSection() {
               key={f.number}
               className="bg-white rounded-2xl border border-[#DBEAFE] p-8 flex flex-col gap-4 hover:border-[#93C5FD] hover:shadow-md transition-all duration-200"
             >
-              {/* 番号＋絵文字 */}
-              <div className="flex items-center gap-3">
-                <span className="text-[#BFDBFE] text-3xl font-bold leading-none">{f.number}</span>
-                <span className="text-3xl leading-none">{f.emoji}</span>
-              </div>
-
-              {/* タイトル */}
+              <span className="text-[#BFDBFE] text-3xl font-bold leading-none">{f.number}</span>
               <h3 className="text-[#0F172A] text-lg font-bold leading-snug">{f.title}</h3>
-
-              {/* 説明文 */}
               <p className="text-[#374151] text-sm leading-[2]">{f.description}</p>
             </div>
           ))}

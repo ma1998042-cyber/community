@@ -14,9 +14,7 @@ export default function SiteHeader() {
   return (
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-white shadow-sm border-b border-[#DBEAFE]"
-          : "bg-white border-b border-[#EFF6FF]"
+        scrolled ? "bg-white shadow-md" : "bg-white shadow-sm"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between gap-4">
