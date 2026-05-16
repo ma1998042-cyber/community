@@ -3,8 +3,6 @@ import Image from "next/image";
 export default function HeroSection() {
   return (
     <section className="bg-white pb-16 md:pb-24 overflow-hidden">
-      <div className="w-full h-1 bg-[#2563EB] mb-12" />
-
       <div className="max-w-6xl mx-auto px-6 lg:px-8 pt-10 md:pt-14">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
           {/* テキストコンテンツ */}
