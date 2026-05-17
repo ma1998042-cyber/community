@@ -48,13 +48,13 @@ export default function SiteHeader() {
 
         <div className="flex items-center gap-2 flex-shrink-0">
           <a
-            href="#purchase"
+            href="https://buy.stripe.com/14A7sKcI613OfjA9lB7N606"
             className="inline-flex items-center bg-[#2563EB] hover:bg-[#1D4ED8] text-white text-xs md:text-sm font-bold px-4 py-2.5 rounded-lg transition-colors duration-200 shadow-sm"
           >
-            今すぐ交流会を始める
+            今すぐ交流会を開催する
           </a>
           <a
-            href="#zoom-consult"
+            href="https://app.aitemasu.me/u/ma1998042/smallcommunity"
             className="hidden sm:inline-flex items-center bg-white hover:bg-[#EFF6FF] text-[#2563EB] text-xs md:text-sm font-bold px-4 py-2.5 rounded-lg transition-colors duration-200 border border-[#2563EB]"
           >
             Zoom相談（60分）

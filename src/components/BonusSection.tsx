@@ -41,9 +41,8 @@ export default function BonusSection() {
                 特典 {String(i + 1).padStart(2, "0")}
               </span>
 
-              {/* 絵文字＋タイトル */}
+              {/* タイトル */}
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl">{bonus.emoji}</span>
                 <h3 className="text-[#0F172A] text-lg font-bold leading-snug">{bonus.title}</h3>
               </div>
 

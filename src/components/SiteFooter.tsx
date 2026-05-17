@@ -16,7 +16,6 @@ export default function SiteFooter() {
         <div className="flex flex-wrap justify-center gap-6 text-[#475569] text-xs mb-8">
           <a href="/tokusho" className="hover:text-[#60A5FA] transition-colors">特定商取引法に基づく表記</a>
           <a href="/privacy" className="hover:text-[#60A5FA] transition-colors">プライバシーポリシー</a>
-          <a href="#" className="hover:text-[#60A5FA] transition-colors">お問い合わせ</a>
         </div>
         <p className="text-[#334155] text-xs">© 2026 小さなコミュニティ実践講座. All rights reserved.</p>
       </div>

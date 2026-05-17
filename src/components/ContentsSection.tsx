@@ -64,7 +64,7 @@ export default function ContentsSection() {
 
         <div className="mt-14 text-center">
           <a
-            href="#purchase"
+            href="https://buy.stripe.com/14A7sKcI613OfjA9lB7N606"
             className="inline-block bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-bold px-10 py-4 rounded-xl text-base md:text-lg transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
           >
             今すぐ交流会を始める

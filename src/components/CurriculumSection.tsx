@@ -88,7 +88,7 @@ const curriculum = [
 
 export default function CurriculumSection() {
   return (
-    <section className="bg-[#F8FAFF] py-20 md:py-28">
+    <section id="curriculum" className="bg-[#F8FAFF] py-20 md:py-28">
       <div className="max-w-5xl mx-auto px-6">
         {/* 見出し */}
         <div className="text-center mb-14">

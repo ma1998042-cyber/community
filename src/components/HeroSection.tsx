@@ -28,13 +28,13 @@ export default function HeroSection() {
             {/* 2つのCTA */}
             <div className="flex flex-col sm:flex-row gap-3 mb-5">
               <a
-                href="#purchase"
+                href="https://buy.stripe.com/14A7sKcI613OfjA9lB7N606"
                 className="inline-flex items-center justify-center bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-bold px-7 py-4 rounded-xl text-base transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5"
               >
-                今すぐ交流会を始める
+                今すぐ交流会を開催する
               </a>
               <a
-                href="#zoom-consult"
+                href="https://app.aitemasu.me/u/ma1998042/smallcommunity"
                 className="inline-flex items-center justify-center bg-white hover:bg-[#EFF6FF] text-[#2563EB] font-bold px-7 py-4 rounded-xl text-base transition-all duration-200 border-2 border-[#2563EB]"
               >
                 Zoom相談（60分）

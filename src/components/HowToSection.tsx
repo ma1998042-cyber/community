@@ -27,7 +27,7 @@ const steps = [
 
 export default function HowToSection() {
   return (
-    <section className="bg-[#F8FAFF] py-20 md:py-28">
+    <section id="how-to" className="bg-[#F8FAFF] py-20 md:py-28">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-[#2563EB] text-sm font-bold tracking-widest mb-3">HOW TO JOIN</p>

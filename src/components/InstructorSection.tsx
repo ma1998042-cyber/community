@@ -10,7 +10,7 @@ const career = [
 
 export default function InstructorSection() {
   return (
-    <section className="bg-white py-20 md:py-28">
+    <section id="instructor" className="bg-white py-20 md:py-28">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-12">
           <p className="text-[#2563EB] text-sm font-bold tracking-widest mb-3">INSTRUCTOR</p>

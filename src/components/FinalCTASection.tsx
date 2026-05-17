@@ -23,13 +23,13 @@ export default function FinalCTASection() {
         {/* 2つのCTA */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#purchase"
+            href="https://buy.stripe.com/14A7sKcI613OfjA9lB7N606"
             className="w-full sm:w-auto inline-flex items-center justify-center bg-white hover:bg-[#F0F7FF] text-[#2563EB] font-bold px-10 py-5 rounded-xl text-lg transition-all duration-200 shadow-xl hover:shadow-2xl hover:-translate-y-0.5"
           >
-            今すぐ交流会を始める
+            今すぐ交流会を開催する
           </a>
           <a
-            href="#zoom-consult"
+            href="https://app.aitemasu.me/u/ma1998042/smallcommunity"
             className="w-full sm:w-auto inline-flex items-center justify-center bg-transparent hover:bg-white/10 text-white font-bold px-10 py-5 rounded-xl text-lg transition-all duration-200 border-2 border-white/60 hover:border-white"
           >
             Zoom相談（60分）

@@ -13,7 +13,7 @@ const items = [
   },
   {
     number: "02",
-    title: "すぐに使える限定テンプレート集",
+    title: "リアルな知見が詰まったテンプレート集",
     description:
       "募集文・LINEメッセージ・当日の進行シートなど、実際の運営でそのまま使えるテンプレートをすべて提供します。ゼロから考える手間なくすぐに動き出せます。",
     checks: [
@@ -39,7 +39,7 @@ const items = [
 
 export default function ProgramSection() {
   return (
-    <section className="bg-[#0F172A] py-20 md:py-28">
+    <section id="program" className="bg-[#0F172A] py-20 md:py-28">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-14">
           <p className="text-[#60A5FA] text-sm font-bold tracking-widest mb-3">PROGRAM</p>
